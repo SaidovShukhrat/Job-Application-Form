@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Application Form</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+         <div class="container">
+            <header class="job">
+                <h1 class="title">Job Application</h1>
+                <p class="job-text">Please complete the form below to apply for a position with us.</p>
+                <hr style="margin-bottom:  20px;">
+             </header>
+         </div>
+          <div class="container">
+            <section class="full">
+                <p class="subtitle">Full Name <span>*</span></p>
+                <div class="gird">
+                    <input class="input" type="text" id="first-Name">
+                    <input class="input" type="text" id="middle-Name">
+                    <input class="input" type="text" id="last-Name">
+                    <label class="label" for="first-Name">First Name</label>
+                    <label class="label" for="middle-Name">Middle Name</label>
+                    <label class="label" for="last-Name">Last Name</label>
+                </div>
+              </section>
+          </div>
+          <div class="container">
+            <section class="body">
+                <p class="subtitle">Body Size <span>*</span></p>
+                <div class="body-size">
+                    <input type="text" id="height" class="input" placeholder="sm">
+                    <input type="text" id="weigth" class="input" placeholder="kg">
+                    <label for="height" class="label">Height</label>
+                    <label for="weigth" class="label">Weight</label>
+                </div>
+              </section>
+          </div>
+          <div class="container">
+            <section class="birth-Date">
+                <p class="subtitle">Birth Date</p>
+                <div class="birth-Date__gird">
+                    <select name="month" id="month" class="input">
+                        <option value="">Pleace select a month</option>
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="august">August</option>
+                        <option value="september">September</option>
+                        <option value="october">October</option>
+                        <option value="november">November</option>
+                        <option value="december">December</option>
+                    </select>
+                    <select name="day" id="day" class="input">
+                        <option value="">Pleace select a day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="year" id="year" class="input">
+                        <option value="">Pleace select a year</option>
+                        <option value="1">2024</option>
+                        <option value="2">2023</option>
+                        <option value="3">2022</option>
+                        <option value="4">2021</option>
+                        <option value="5">2020</option>
+                        <option value="6">2019</option>
+                        <option value="7">2018</option>
+                        <option value="8">2017</option>
+                        <option value="9">2016</option>
+                        <option value="10">2015</option>
+                        <option value="11">2014</option>
+                        <option value="12">2013</option>
+                        <option value="13">2012</option>
+                        <option value="14">2011</option>
+                        <option value="15">2010</option>
+                        <option value="16">2009</option>
+                        <option value="17">2008</option>
+                        <option value="18">2007</option>
+                        <option value="19">2006</option>
+                        <option value="20">2005</option>
+                        <option value="21">2004</option>
+                        <option value="22">2003</option>
+                        <option value="23">2002</option>
+                        <option value="24">2001</option>
+                        <option value="25">2000</option>
+                    </select>
+                    <label for="month" class="label">Month</label>
+                    <label for="day" class="label">Day</label>
+                    <label for="year" class="label">Year</label>
+                </div>
+              </section>
+          </div>
+        <div class="container">
+            <section family-status>
+                <p class="subtitle" style="padding: 10px 0;">Family Status</p>
+                <div>
+                    <label class="form-control">
+                        Divocred
+                        <input type="radio" name="family">
+                        <span class="custom-radio"></span>
+                    </label>
+                    <label class="form-control">
+                        Married
+                        <input type="radio" name="family">
+                        <span class="custom-radio"></span>
+                    </label>
+                    <label class="form-control">
+                        Single
+                        <input type="radio" name="family">
+                        <span class="custom-radio"></span>
+                    </label>
+                    <label class="form-control">
+                        Other
+                        <input type="radio" name="family">
+                        <span class="custom-radio"></span>
+                    </label>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="current-address">
+                <p class="subtitle">Current Address</p>
+                <input type="text" id="street-adderss" name="street-adderss" class="input" style="width: 100%;">
+                <label class="label" for="street-adderss">Street Adderss</label>
+                <input class="input" type="text" id="street-adderss__line2" name="street-adderss__line2" style="width: 100%;">
+                <label class="label" for="street-adderss__line2">Street Address Line 2</label>
+                <div class="city-state">
+                    <input class="input" type="text" id="city" name="city">
+                    <input class="input" type="text" id="state" name="state">
+                    <label class="label" for="city">City</label>
+                    <label class="label" for="state">State</label>
+                </div>
+                <input class="input" type="text" id="zip-code" name="zip-code" style="width: 100%;">
+                <label class="label" for="zip-code">Postal / Zip Code</label>
+            </section>
+        </div>
+        <div class="container">
+            <section class="info">
+                <div class="email-number">
+                    <div class="email">
+                        <p class="subtitle">Email Adress</p>
+                        <input class="input" type="email" name="email-adderss" id="email-adderss" placeholder="ex: myname@example.com">
+                        <label class="label" for="email-adderss">example@example.com</label>
+                    </div>
+                    <div class="number">
+                        <p class="subtitle">Phone Number</p>
+                        <div class="number-grid">
+                            <input placeholder="90" type="number" name="number-code" id="number-code" class="input">
+                            <input placeholder="9000909" type="number" name="phone-number" id="phone-number" class="input">
+                            <label for="number-code" class="label">Area Code</label>
+                            <label for="phone-number" class="label">Phone Number</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-grid">
+                    <div>
+                        <p class="subtitle">Linkedln</p>
+                        <input style="width: 80%;" class="input" type="text" name="linkedIn" id="linkedIn">
+                    </div>
+                    <div>
+                        <p class="subtitle">Experience</p>
+                        <input style="width: 80%;" class="input" type="number" id="experience" name="experience">
+                    </div>
+                    </div>
+                <hr>
+            </section>
+        </div>
+        <div class="container">
+            <section class="about">
+                <p class="subtitle">Position Applied</p>
+                <select name="position-applied" id="position-applied" class="input">
+                    <option value="1">Pleace Select</option>
+                    <option value="2">Marketing Specialist</option>
+                    <option value="3">Sales Manager</option>
+                    <option value="4">Product Lead</option>
+                    <option value="5">Developer</option>
+                </select>
+                <p class="subtitle">How did you hear about us</p>
+                <select name="social" id="social" class="input">
+                    <option value="1">Pleace Select</option>
+                    <option value="2">Linkedln</option>
+                    <option value="3">Event</option>
+                    <option value="4">Social Media</option>
+                    <option value="5">Company Website</option>
+                    <option value="6">Family / Friend</option>
+                    <option value="7">Other</option>
+                </select>
+                <p class="subtitle">Please Specify</p>
+                <input type="text" name="specify" id="specify" class="input">
+                <p class="subtitle">Available Start Date</p>
+                <input type="date" name="date" id="date" class="input">
+            </section>
+        </div>
+        <div class="container">
+            <section class="computer-skills">
+                <p class="subtitle">Computer Skills</p>
+               <table>
+                    <thead>
+                        <tr>
+                            <th class="none"></th>
+                            <th class="color">Beginner</th>
+                            <th class="color">Elementary</th>
+                            <th class="color">Advanced</th>
+                            <th class="color">Expert</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="color left">Excel</td>
+                            <td><input type="radio" name="excel"></td>
+                            <td><input type="radio" name="excel"></td>
+                            <td><input type="radio" name="excel"></td>
+                            <td><input type="radio" name="excel"></td>
+                        </tr>
+                        <tr>
+                            <td class="color left">Word</td>
+                            <td><input type="radio" name="word"></td>
+                            <td><input type="radio" name="word"></td>
+                            <td><input type="radio" name="word"></td>
+                            <td><input type="radio" name="word"></td>
+                        </tr>
+                        <tr>
+                            <td class="color left">1C</td>
+                            <td ><input type="radio" name="1c"></td>
+                            <td><input type="radio" name="1c"></td>
+                            <td><input type="radio" name="1c"></td>
+                            <td><input type="radio" name="1c"></td>
+                        </tr>
+                        <tr>
+                            <td class="color left">Programming Language</td>
+                            <td><input type="radio" name="lang"></td>
+                            <td><input type="radio" name="lang"></td>
+                            <td><input type="radio" name="lang"></td>
+                            <td><input type="radio" name="lang"></td>
+                        </tr>
+                    </tbody>
+               </table>
+            </section>
+        </div>
+        <div class="container">
+            <section class="english-language">
+                <p class="subtitle">Ability knowing English Language</p>
+                <div class="radio-group">
+                    
+                    <label for="radio" class="label-1 label-radio">
+                        <input  type="radio" placeholder="1" name="radio" id="radio">
+                        <span class="span">1</span>
+                    </label>
+                    
+                    <label for="radio" class="label-2 label-radio">
+                        <input type="radio" placeholder="2" name="radio">
+                        <span class="span">2</span>
+                    </label>
+                    
+                    <label for="radio" class="label-3 label-radio">
+                        <input type="radio" placeholder="3" name="radio">
+                        <span class="span">3</span>
+                    </label>
+                    
+                    <label for="radio" class="label-4 label-radio">
+                        <input type="radio" placeholder="4" name="radio">
+                        <span class="span">4</span>
+                    </label>
+                    
+                    <label for="radio" class="label-5 label-radio">
+                        <input type="radio" placeholder="5" name="radio">
+                        <span class="span">5</span>
+                    </label>
+                    <div class="div-span">
+                        <span class="label">Worst</span>
+                        <span class="label span-best">Best</span>
+                    </div>
+                    </div>
+            </section>
+        </div>
+       <div class="container">
+        <section class="diplom">
+            <p class="subtitle">Applicant Document(Diploma, Certificate)</p>
+            <div class="diplom-input">
+                <label for="input" class="label-file">
+                    <input class="input-file" type="file" id="input-file">
+                    <div>
+                        <img src="./Без названия.svg" alt="image" class="diplom-image">
+                    </div>
+                    <div><h1 class="browse-header">Browse Files</h1></div>
+                    <div class="text">Drag and drop files here</div>
+                </label>
+            </div>
+            <p class="subtitle">Upload Your Resume</p>
+            <div class="diplom-input">
+                <label for="resume" class="label-file">
+                    <input type="file" name="resume" class="input-file">
+                    <div>
+                        <img src="./Без названия.svg" alt="image" class="diplom-image">
+                    </div>
+                    <div><h1 class="browse-header">Browse Files</h1></div>
+                    <div class="text">Drag and drop files here</div>
+                </label>
+            </div>
+            <p class="subtitle">Cover Letter</p>
+            <div class="text-input">
+                <input type="text" class="text-input input">
+            </div>
+        </section>
+       </div>
+      
+        <div class="container">
+            <div class="div-button">
+                <button class="button">Apply</button>
+            </div>
+        </div>
+    </body>
+</html>

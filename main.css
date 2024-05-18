@@ -1,0 +1,310 @@
+*{
+    font-family: inherit;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/* Section job */
+.title {
+    color: #2C3345;
+    font-weight: 600;
+    line-height: 1.45;
+    margin: 0;
+}
+.subtitle {
+    color: #2C3345;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 5px;
+}
+.input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+    border-color: #b8bdc9; 
+}
+.input:hover {
+    border-width: 2px;
+    border-color: rgba(46, 105, 255, .5);
+    box-shadow: 0 0 0 2px rgba(46, 105, 255, .25);
+}
+.input:focus {
+    border-width: 0;
+    border-color: #2e69ff;
+    box-shadow: 0 0 0 3px rgba(46, 105, 255, .25);
+    outline: none;
+
+}
+
+.label {
+    margin: 0 5px;
+    font-size: .75em;
+    color: #464d5f;
+}
+/* section job */
+.job-text {
+    color: #2C3345;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+
+/* section full name */
+.gird {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.subtitle span {
+    color: #dc2626;
+}
+/* body size */
+.body-size{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/* Birth Date */
+.birth-Date__gird {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.birth-Date__gird select option {
+    color: #2c3345;
+    font-size: 1em;
+}
+/* Family Status */
+.form-control {
+    display: block;
+    position: relative;
+    padding-left: 36px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: .9375em;
+}
+.form-control input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.custom-radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    border-color: #b8bdc9;
+    border: 1px solid;
+}
+.form-control:hover input ~ .custom-radio {
+    border-width: 0;
+    border-color: #2e69ff;
+    box-shadow: 0 0 0 3px rgba(46, 105, 255, .25);
+    outline: none;
+}
+.form-control input:checked ~ .custom-radio {
+  background-color: #fff
+}
+.custom-radio:after {
+    top: 1px;
+    left: 2px;
+    width: 16px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #2e69ff;
+    content: "";
+    position: absolute;
+    display: none;
+}
+.form-control input:checked ~ .custom-radio:after {
+    display: block;
+    }
+    /* Current Address */
+.city-state {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/* section info */
+.email-number {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.email {
+    display: grid;
+}
+.number {
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+.number-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.social-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px 0;
+}
+/* section about */
+.about {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/* computer section */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 12px 10px;
+    margin: 12px 4px;
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+    transition: background-color .15s;
+    
+}
+th,td {
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 3px;
+    border-color: #c3cad8;
+}
+.none {
+    border: none;
+    border-spacing: 0;
+}
+.color {
+    background-color: #e5eaf4;
+    font-weight: 500;
+}
+tr td {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+td input {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    clip: auto;
+}
+/* radio group */
+.radio-group {
+    position: relative;
+}
+.radio-group input {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #c3cad8;
+}
+  
+.label-radio{
+    color: #8894ab;
+}
+.label-radio {
+    position: relative;}
+.span {
+    position: absolute;
+    top: -12px;
+    left: 18px;
+}
+.label-radio input:checked ~ .span {
+    color: #FFf;
+    
+}
+.label-radio input:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.span-best{
+    top: 4px;
+    left: 200px;
+    position: absolute;
+}
+.div-span{
+    position: relative;
+}
+/* file */
+.diplom-input{
+    display: block;
+    border: 1px solid black;
+    height: 150px;
+    position: relative;
+    background-color: #f3f3fe;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-style: dashed;
+    margin-bottom: 30px;
+
+}
+.label-file, .input-file {
+    width: 100%;
+    height: 100%;
+    position: absolute;   
+}
+.input-file {
+   
+    opacity: 0;
+    outline: 0;
+}
+.label-file>div {
+    text-align: center;
+}
+.diplom-image {
+    margin-top: 40px;
+    height: 35px;
+    width: 40px;
+}
+.text {
+    font-size: 14px;
+    color: #57647e;
+    font-weight: 400;
+    margin-top: 6px;
+}
+.browse-header {
+    margin: 10px;
+}
+.label-file input:hover {
+    cursor: pointer;
+}
+.text-input {
+    position: relative;
+    display: block;
+}
+.text-input {
+    width: 100%;
+    height: 180px;
+}
+.div-button{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+.button {
+    color: #dadee5;
+    text-shadow: -1px -1px 0 #000;
+    border-color: #000;
+    box-shadow: inset 0 1px 0 0 hsla(0, 0%, 100%, .25), 0 1px 2px 0 rgba(0, 0, 0, .44);
+    background: linear-gradient(0deg, #2e2e2e 0, #030303);
+    font-size: 16px;
+    width: auto;
+    min-width: 180px;
+    height: 3em;
+    border-radius: 4px;  
+}
+.button:hover {
+    text-shadow: -1px -1px 0 #000, 0 0 3px rgba(51, 160, 255, .5);
+    background: linear-gradient(0deg, #404040 0, #1a1a1a);
+    cursor: pointer;
+}
